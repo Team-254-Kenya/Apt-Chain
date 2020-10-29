@@ -15,3 +15,7 @@ git clone https://github.com/Team-254-Kenya/apt-chain.git
 ```
 yarn install
 ```
+3. Run the app
+```
+yarn start
+```
