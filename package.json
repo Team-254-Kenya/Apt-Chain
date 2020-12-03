@@ -1,26 +1,18 @@
 {
-  "dependencies": {
-    "@celo/contractkit": "^0.4.1",
-    "web3": "^1.3.0"
-  },
-  "name": "apt-chain",
-  "description": "Apt Chain is a Dapp created under the Ethereum Blockchain to track government money transfer to its correct destination.",
+  "name": "hello_contracts_remote_node",
   "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {
-    "mocha": "^6.2.3"
+  "description": "",
+  "main": "celo_deploy.js",
+  "directories": {
+    "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Team-254-Kenya/apt-chain.git"
-  },
-  "author": "Team-254-Kenya",
-  "license": "UNLICENSED",
-  "bugs": {
-    "url": "https://github.com/Team-254-Kenya/apt-chain/issues"
-  },
-  "homepage": "https://github.com/Team-254-Kenya/apt-chain#readme"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@celo/contractkit": "^0.4.0",
+    "web3": "^1.2.6"
+  }
 }
